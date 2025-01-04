@@ -1,0 +1,18 @@
+{
+  "name": "fighter-model",
+  "version": "1.0.0",
+  "description": "This repository contains data models, schemas, and examples for fighters in a turn-based game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1"
+  },
+  "devDependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}

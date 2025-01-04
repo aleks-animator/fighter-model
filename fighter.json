@@ -1,1 +1,8 @@
-{"name": "Warrior", "health": 100, "attack": 15}
+{
+  "name": "Warrior",
+  "health": 125,
+  "speed": 15,
+  "attack": 20,
+  "shield": 10,
+  "defence": 5
+}
