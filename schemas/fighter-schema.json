@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the fighter"
+    },
+    "health": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "The health points of the fighter"
+    },
+    "mana": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Mana points"
+    },
+    "speed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Speed of the fighter"
+    },
+    "attack": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Attack points of the fighter"
+    },
+    "shield": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Shield points of the fighter"
+    },
+    "defence": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Defence points of the fighter"
+    },
+    "mana_regeneration_rate": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": ["name", "health", "mana", "speed", "attack"],
+  "additionalProperties": false
+
+}

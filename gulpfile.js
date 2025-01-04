@@ -17,7 +17,7 @@ gulp.task('validate', (done) => {
 
 // Watch task to automatically run the validation script on changes
 gulp.task('watch', () => {
-    gulp.watch(['schema.json', 'fighter.json'], gulp.series('validate'));
+    gulp.watch(['fighter.json', 'book.json'], gulp.series('validate'));
 });
 
 // Default task (runs when you type `gulp` in the terminal)

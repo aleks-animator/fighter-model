@@ -1,8 +1,10 @@
 {
   "name": "Warrior",
   "health": 125,
-  "speed": 15,
-  "attack": 20,
+  "mana": 42,
+  "speed": 10,
+  "attack": 24,
   "shield": 10,
-  "defence": 5
+  "defence": 5,
+  "mana_regeneration_rate": 1
 }

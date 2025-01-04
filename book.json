@@ -1,0 +1,8 @@
+{
+    "name": "Magic Tome",
+    "boosts": {
+    "health_boost": 50,
+        "attack_boost": 10,
+        "defense_boost": 5
+}
+}
